@@ -1,0 +1,340 @@
+ul, h1, h2, h3, h4, h5, h6, p, li {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  background-color: lightblue;
+}
+
+button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+          box-shadow: 1px 2px 5px 7px darkblue;
+}
+
+body {
+  
+  font-size: 18px;
+}
+
+.clear {
+  clear: both;
+  color: blue;
+}
+
+.content {
+  width: 1300px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.content .headerMain {
+  text-align: center;
+  
+  font-size: 50px;
+  color:  blue;
+  text-transform: uppercase;
+}
+
+.content .headerMainTop {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  font-size: 80px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.content .buttonStartGame {
+  width: 250px;
+  height: 100px;
+  margin-top: 150px;
+  margin-left: 520px;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
+.content .contentMenu {
+  display: none;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.content .contentMenu .headerTheme {
+  color:  blue;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+}
+
+.content .contentMenu .buttonMenu {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.content .questionsPlace .headerLevel {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.content .questionsPlace .numberQuestion {
+  text-transform: uppercase;
+  color: blue;
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.content .questionsPlace .question {
+  color: blue;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.content .questionsPlace .questionTwo {
+  color: #944900;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.content .questionsPlace .buttonThemeReturn {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.content .questionsPlace .globalPoints {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  background: lightblue;
+  color: #ffffff;
+  font-family: "Russo One", sans-serif;
+}
+
+.content .questionsPlace .globalPoints .result {
+  color: white;
+  font-size: 20px;
+}
+
+.content .questionsPlace .resultPoints {
+  width: 750px;
+  margin: auto;
+  background-color: #f7a621;
+  display: none;
+}
+
+.content .questionsPlace .resultPoints .result {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: 10px;
+}
+
+.content .questionsPlace .resultPoints .correctResult {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.content .questionsPlace .resultPoints .points {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: 10px;
+}
+
+.content .questionsPlace .clock {
+  display: none;
+  width: 100px;
+  margin: auto;
+  position: relative;
+  left: 330px;
+  top: 112px;
+  font-size: 20px;
+  padding-right: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Russo One", sans-serif;
+}
+
+.content .questionsPlace label {
+  float: left;
+  position: relative;
+  left: 130px;
+  color:  blue;
+  font-family: "Russo One", sans-serif;
+  padding: 20px 20px;
+  margin-right: 10px;
+}
+
+.content .questionsPlace input[type=radio], .content .questionsPlace input[type=checkbox] {
+  display: none;
+}
+
+.content .questionsPlace input[type=radio]:checked + label:after, .content .questionsPlace input[type=radio]:hover + label:after {
+  display: block;
+}
+
+.content .questionsPlace input[type=text] {
+  width: 300px;
+  height: 30px;
+  margin-left: 225px;
+  margin-bottom: 20px;
+  border: none;
+  color:  blue;
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+
+.content .questionsPlace input[type=text]:focus {
+  outline: none;
+  border: 1px solid #944900;
+}
+
+.content .questionsPlace input[type=checkbox]:checked + label:after, .content .questionsPlace input[type=checkbox]:hover + label:after {
+  content: "\2713";
+  width: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  color: orange;
+  text-align:s;
+  line-height: 20px;
+  background:  blue;
+}
+
+.content .questionsPlace .buttonNext {
+  width: 200px;
+  height: 50px;
+  margin-left: 550px;
+  margin-top: 50px;
+  display: none;
+}
+
+.content .questionsPlace .themeProg .liteLevel .questionProg, .content .questionsPlace .themeProg .liteLevel .questionMath, .content .questionsPlace .themeProg .liteLevel .questionRus, .content .questionsPlace .themeProg .liteLevel .questionBio, .content .questionsPlace .themeProg .liteLevel .questionInf, .content .questionsPlace .themeMath .liteLevel .questionProg, .content .questionsPlace .themeMath .liteLevel .questionMath, .content .questionsPlace .themeMath .liteLevel .questionRus, .content .questionsPlace .themeMath .liteLevel .questionBio, .content .questionsPlace .themeMath .liteLevel .questionInf, .content .questionsPlace .themeRus .liteLevel .questionProg, .content .questionsPlace .themeRus .liteLevel .questionMath, .content .questionsPlace .themeRus .liteLevel .questionRus, .content .questionsPlace .themeRus .liteLevel .questionBio, .content .questionsPlace .themeRus .liteLevel .questionInf, .content .questionsPlace .themeBio .liteLevel .questionProg, .content .questionsPlace .themeBio .liteLevel .questionMath, .content .questionsPlace .themeBio .liteLevel .questionRus, .content .questionsPlace .themeBio .liteLevel .questionBio, .content .questionsPlace .themeBio .liteLevel .questionInf, .content .questionsPlace .themeInf .liteLevel .questionProg, .content .questionsPlace .themeInf .liteLevel .questionMath, .content .questionsPlace .themeInf .liteLevel .questionRus, .content .questionsPlace .themeInf .liteLevel .questionBio, .content .questionsPlace .themeInf .liteLevel .questionInf {
+  overflow: hidden;
+  width: 750px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  display: none;
+}
+
+.content .questionsPlace .themeProg .liteLevel label, .content .questionsPlace  .liteLevel label, .content .questionsPlace .liteLevel label, .content .questionsPlace .themeBio .liteLevel label, .content .questionsPlace .themeInf .liteLevel label {
+  margin-right: 30px;
+  left: 50px;
+}
+
+.content .questionsPlace .themeProg .liteLevel label:before, .content .questionsPlace .liteLevel label:before, .content .questionsPlace .themeRus .liteLevel label:before, .content .questionsPlace .themeBio .liteLevel label:before, .content .questionsPlace .themeInf .liteLevel label:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.content .questionsPlace .themeProg .liteLevel label:after, .content .questionsPlace .liteLevel label:after, .content .questionsPlace .themeRus .liteLevel label:after, .content .questionsPlace .themeBio .liteLevel label:after, .content .questionsPlace .themeInf .liteLevel label:after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 24px;
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  border-radius: 50%;
+  display: none;
+}
+
+.content .questionsPlace .themeProg .middleLevel .questionProg, .content .questionsPlace .themeProg .middleLevel .questionMath, .content .questionsPlace .themeProg .middleLevel .questionRus, .content .questionsPlace .themeProg .middleLevel .questionBio, .content .questionsPlace .themeProg .middleLevel .questionInf, .content .questionsPlace .themeMath .middleLevel .questionProg, .content .questionsPlace .themeMath .middleLevel .questionMath, .content .questionsPlace .themeMath .middleLevel .questionRus, .content .questionsPlace .themeMath .middleLevel .questionBio, .content .questionsPlace .themeMath .middleLevel .questionInf, .content .questionsPlace .themeRus .middleLevel .questionProg, .content .questionsPlace .themeRus .middleLevel .questionMath, .content .questionsPlace .themeRus .middleLevel .questionRus, .content .questionsPlace .themeRus .middleLevel .questionBio, .content .questionsPlace .themeRus .middleLevel .questionInf, .content .questionsPlace .themeBio .middleLevel .questionProg, .content .questionsPlace .themeBio .middleLevel .questionMath, .content .questionsPlace .themeBio .middleLevel .questionRus, .content .questionsPlace .themeBio .middleLevel .questionBio, .content .questionsPlace .themeBio .middleLevel .questionInf, .content .questionsPlace .themeInf .middleLevel .questionProg, .content .questionsPlace .themeInf .middleLevel .questionMath, .content .questionsPlace .themeInf .middleLevel .questionRus, .content .questionsPlace .themeInf .middleLevel .questionBio, .content .questionsPlace .themeInf .middleLevel .questionInf {
+  overflow: hidden;
+  width: 750px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  display: none;
+}
+
+.content .questionsPlace .themeProg .middleLevel label, .content .questionsPlace .themeMath .middleLevel label, .content .questionsPlace .themeRus .middleLevel label, .content .questionsPlace .themeBio .middleLevel label, .content .questionsPlace .themeInf .middleLevel label {
+  margin-right: 30px;
+  left: 40px;
+}
+
+.content .questionsPlace .themeProg .middleLevel label:after, .content .questionsPlace .themeMath .middleLevel label:after, .content .questionsPlace .themeRus .middleLevel label:after, .content .questionsPlace .themeBio .middleLevel label:after, .content .questionsPlace .themeInf .middleLevel label:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #944900;
+}
+
+.content .questionsPlace .themeProg .hardLevel .questionProg, .content .questionsPlace .themeProg .hardLevel .questionMath, .content .questionsPlace .themeProg .hardLevel .questionRus, .content .questionsPlace .themeProg .hardLevel .questionBio, .content .questionsPlace .themeProg .hardLevel .questionInf, .content .questionsPlace .themeMath .hardLevel .questionProg, .content .questionsPlace .themeMath .hardLevel .questionMath, .content .questionsPlace .themeMath .hardLevel .questionRus, .content .questionsPlace .themeMath .hardLevel .questionBio, .content .questionsPlace .themeMath .hardLevel .questionInf, .content .questionsPlace .themeRus .hardLevel .questionProg, .content .questionsPlace .themeRus .hardLevel .questionMath, .content .questionsPlace .themeRus .hardLevel .questionRus, .content .questionsPlace .themeRus .hardLevel .questionBio, .content .questionsPlace .themeRus .hardLevel .questionInf, .content .questionsPlace .themeBio .hardLevel .questionProg, .content .questionsPlace .themeBio .hardLevel .questionMath, .content .questionsPlace .themeBio .hardLevel .questionRus, .content .questionsPlace .themeBio .hardLevel .questionBio, .content .questionsPlace .themeBio .hardLevel .questionInf, .content .questionsPlace .themeInf .hardLevel .questionProg, .content .questionsPlace .themeInf .hardLevel .questionMath, .content .questionsPlace .themeInf .hardLevel .questionRus, .content .questionsPlace .themeInf .hardLevel .questionBio, .content .questionsPlace .themeInf .hardLevel .questionInf {
+  overflow: hidden;
+  width: 750px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  display: none;
+}
+
+.content .questionsPlace .themeProg .hardLevel label, .content .questionsPlace .themeMath .hardLevel label, .content .questionsPlace .themeRus .hardLevel label, .content .questionsPlace .themeBio .hardLevel label, .content .questionsPlace .themeInf .hardLevel label {
+  margin-right: 30px;
+  left: 40px;
+}
+
+.content .questionsPlace .themeProg .hardLevel label:after, .content .questionsPlace .themeMath .hardLevel label:after, .content .questionsPlace .themeRus .hardLevel label:after, .content .questionsPlace .themeBio .hardLevel label:after, .content .questionsPlace .themeInf .hardLevel label:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #944900;
+}
